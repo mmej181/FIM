@@ -1,6 +1,6 @@
 
 <h1>File Integrity Monitor</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This project outlines a demo of a File Integrity Monitor program using PowerShell ISE.<br />
 
 
 <h2>How to:</h2>
