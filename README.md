@@ -30,13 +30,15 @@ Monitor File Integrity
 
 Step 1: Temporarily allow script execution for the session.
 
+![](media/ExecutionPolicy.png)
+
 Step 2: Here is the Files folder we will be monitoring.
 
-![](media/STEP%202%20-%20DC%20NIC.png)
+![](media/FilesFolder.png)
 
 Step 3: Next, we run the custom script.
 
-![](media/STEP%203%20-%20ENABLE%20ICMP.png)
+![](media/RunScript.png)
 
 </p>
 <br />
@@ -47,11 +49,15 @@ Step 3: Next, we run the custom script.
 
 Step 4: Establish a new baseline on the files in the Files folder.
 
-![](media/STEP%204%20-%20ADDS.png)
+![](media/NewBaseline.png)
 
 Step 5: Baseline file created. 
 
+![](media/BaselineFile.png)
+
 Step 6: File hashes of the four .txt files contained in the Files folder.
+
+![](media/FileHash.png)
 
 </p>
 <br />
@@ -62,17 +68,19 @@ Step 6: File hashes of the four .txt files contained in the Files folder.
 
 Step 7: Begin monitoring files using saved Baseline.
 
-![](media/STEP%207%20-%20OU.png)
+![](media/RerunProgram.png)
 
 Step 8: 8. After removing one of the files from the folder, we see that we get an alert that the file a.txt has been deleted.
 
-![](media/STEP%208%20-%20DOMAIN%20ADMINS.png)
+![](media/FileDetected.png)
 
 Step 9: Then, I put the a.txt file back, but modified it by adding a new character, which the FIM detected and alerted us that the file had been changed.
 
-![](media/STEP%209%20-%20DNS.png)
+![](media/FileChanged.png)
 
 Step 10: I then added a new file called e.txt to the Files folder and received an alert that a new file had been created.
+
+![](media/FileCreated.png)
 
 </p>
 <br />
@@ -82,13 +90,23 @@ Step 10: I then added a new file called e.txt to the Files folder and received a
 
 Step 11: After returning the Files folder back to its original state, I output the SHA512 hash for the a.txt file.
 
+![](media/aHash.png)
+
 Step 12: By running the above command, I displayed the entire hash value.
+
+![](media/Hashofa.png)
 
 Step 13: Here we see the full hash of a.txt.
 
+![](media/FullHash.png)
+
 Step 14: Here I just added an additional a to the a.txt file.
 
+![](media/Fourtha.png)
+
 Step 15: And by running the same command as before, we can see that the file a.txt has a completely different hash since adding only 1 letter.
+
+![](media/HashChange.png)
 
 </p>
 <br />
