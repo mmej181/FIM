@@ -36,7 +36,7 @@ Step 2: Here is the Files folder we will be monitoring.
 
 ![](media/FilesFolder.png)
 
-Step 3: Next, we run the custom script.
+Step 3: Next, we run the custom script. (Found here: https://github.com/joshmadakor1/PowerShell-Integrity-FIM/blob/main/Fim.ps1)
 
 ![](media/RunScript.png)
 
