@@ -70,9 +70,9 @@ Step 7: Begin monitoring files using saved Baseline.
 
 ![](media/RerunProgram.png)
 
-Step 8: 8. After removing one of the files from the folder, we see that we get an alert that the file a.txt has been deleted.
+Step 8: After removing one of the files from the folder, we see that we get an alert that the file a.txt has been deleted.
 
-![](media/FileDetected.png)
+![](media/FileDeleted.png)
 
 Step 9: Then, I put the a.txt file back, but modified it by adding a new character, which the FIM detected and alerted us that the file had been changed.
 
